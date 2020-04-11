@@ -39,39 +39,6 @@ function high(){
     }
 }
 
-// document.addEventListener('click', function(){
-//     let res = document.querySelector('div#price')
-//     const val = document.querySelector('.storage')
-//     const p1 = document.querySelector('div#p1')
-//     const p2 = document.querySelector('div#p2')
-//     const p3 = document.querySelector('div#p3')
-
-    
-
-    // const p1 = '2.350,00'
-    // const p2 = '4.350,00'
-    // const p3 = '3.250,00'
-
-
-
-
-// storage = p1;
-
-// switch (storage) {
-//     case p1:
-//         res.innerHTML = `${p1}`
-//         break;
-//     case p2:
-//         res.innerHTML = `${p2}`
-//         break;
-//     case p3:
-//         res.innerHTML = `${p3}`
-// } 
-
-// res.innerHTML = `${storage}`
-
-
-// })
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
