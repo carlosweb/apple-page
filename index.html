@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/1269dee977.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="logo">Apple</h3>
+                </div>
+                <div class="col-md-5">
+                    <nav>
+                        <ul>
+                            <li><a href="">Visão Geral</a></li>
+                            <li><a href="">Watch</a></li>
+                            <li><a href="">Acessórios</a></li>
+                            <li><a href="">Suporte</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 text-right">
+                    <div class="search-box">
+                        <input type="text" class="search-text" name="" id="" placeholder="Faça sua busca">
+                        <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-5">
+                    <div class="phone-pic"></div>
+
+                </div>
+                <div class="col-md-7">
+                    <div class="product-info">
+                        <h2 class="title">Comprar iPhone 11</h2>
+                        <p>
+                            O iPhone 11 tem novo sistema de câmera dupla para capturar mais do que você vê e ama.
+                            Ele vem com o chip mais rápido em um smartphone. E bateria para o dia todo: você faz muito e
+                            recarrega pouco.
+                            Também tem a melhor qualidade de vídeo em um celular. Assim, suas memórias ficam
+                            inesquecíveis de verdade.
+                        </p>
+
+                        <h3>Capacidade</h3>
+                        <div class="storage">
+                            <div id="p1" class="box active" onclick="low()"><i class="fas fa-hdd"></i> 64 Gb</div>
+                            <div id="p2" class="box" onclick="medium()"> <i class="fas fa-hdd"></i> 128 Gb</div>
+                            <div id="p3" class="box" onclick="high()"> <i class="fas fa-hdd"></i> 256 Gb</div>
+                        </div>
+                        <h3>Escolha a cor</h3>
+                        <div class="product-colors">
+                            <span data-toggle="tooltip" data-placement="bottom" title="Preto" id="black"
+                                class="black active" data-color="#2c3e50" data-pic="url(./public/images/1.png)"></span>
+                            <span data-toggle="tooltip" data-placement="bottom" title="Roxo" id="purple" class="purple"
+                                data-color="#D6A2E8" data-pic="url(./public/images/2.png)"></span>
+                            <span data-toggle="tooltip" data-placement="bottom" title="Amarelo" id="yellow"
+                                class="yellow" data-color="#fffa65" data-pic="url(./public/images/3.png)"></span>
+                            <span data-toggle="tooltip" data-placement="bottom" title="Verde" id="green" class="green"
+                                data-color="#3ae374" data-pic="url(./public/images/4.png)"></span>
+                            <span data-toggle="tooltip" data-placement="bottom" title="Vermelho" id="red" class="red"
+                                data-color="#ff3838" data-pic="url(./public/images/5.png)"></span>
+                        </div>
+                        <div id="price" class="product-price">R$ 4.999,00</div>
+
+                        <a href="#" class="product-button"> <i class="fas fa-shopping-bag"></i> Colocar na Sacola </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+<script src="./public/script.js"></script>s
+
+</html>

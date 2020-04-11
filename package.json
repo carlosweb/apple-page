@@ -1,0 +1,8 @@
+{
+  "name": "Pageiphone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carlosweb/Project-apple-page.git",
+  "author": "carlosweb <kaduinfo@gmail.com>",
+  "license": "MIT"
+}
